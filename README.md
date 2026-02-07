@@ -56,4 +56,4 @@ Minor fluctuations in validation accuracy near the final epochs suggest the mode
 
 ##  ✅ Conclusion
 
-The trained model demonstrates strong and reliable performance for audio classification tasks. With over 90% test accuracy, it is suitable for real-world deployment and can be further improved using techniques such as data augmentation, regularization, or hyperparameter tuning.
+A dual-branch deep learning model was developed for music genre classification by combining raw waveform and Mel spectrogram features. The waveform-based 1D CNN captures temporal characteristics, while the Mel spectrogram–based 2D CNN learns spectral information. Regularization techniques such as batch normalization, dropout, and L2 penalties help stabilize training and reduce overfitting. The model achieves strong classification performance, demonstrating the effectiveness of jointly learning temporal and spectral audio features, with scope for further improvement through data augmentation and hyperparameter tuning.
