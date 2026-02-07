@@ -20,6 +20,7 @@ It extracts audio features and predicts the music category/genre based on traine
 - Librosa
 - Scikit-learn
 - Matplotlib (for visualization)
+- streamlit
 
 ---
 
